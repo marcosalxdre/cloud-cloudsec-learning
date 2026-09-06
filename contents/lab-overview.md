@@ -31,6 +31,6 @@ Paralelamente, estudei a aplicação desses conceitos com foco em boas práticas
 
 ## Diagrama da Infraestrutura Base
 
-Em seguida, estruturei um mapa mental para relacionar esses conceitos e desenhar uma arquitetura inicial simples utilizando o Draw.io.
+Em seguida, estruturei um mapa mental para relacionar esses conceitos e desenhar uma arquitetura inicial simples utilizando o [Draw.io](https://www.drawio.com/).
 
 O resultado é o diagrama da infraestrutura base representado abaixo:
