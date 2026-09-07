@@ -34,6 +34,7 @@ Paralelamente, estudei a aplicação desses conceitos com foco em boas práticas
 Em seguida, estruturei um mapa mental para relacionar esses conceitos e desenhar uma arquitetura inicial simples utilizando o [Draw.io](https://www.drawio.com/).
 
 O resultado é o diagrama da infraestrutura base representado abaixo:
+
 <br>
 <p align="center">
   <img src="https://github.com/marcosalxdre/cloud-cloudsec-learning/blob/eb08942d344309906bd203d2e3eaf79ee5c4029d/images/diagrama-baseline.png?raw=true" width="75%">
