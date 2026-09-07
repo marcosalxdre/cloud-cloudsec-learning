@@ -117,7 +117,7 @@ AZ-B
 
 A separação não é apenas organizacional. Cada subnet poderá possuir rotas e controles de acesso diferentes, permitindo determinar quais recursos podem se comunicar com a Internet e quais devem permanecer restritos à rede privada.
 
-### Public Subnets
+## Public Subnets
 
 As **Public Subnets** são destinadas aos componentes que precisam possuir conectividade direta com a Internet por meio da infraestrutura de roteamento da VPC.
 
@@ -132,14 +132,15 @@ Public Subnet A       Public Subnet B
 
 Uma subnet é considerada pública não simplesmente porque contém um recurso público, mas porque sua tabela de rotas possui uma rota que permite alcançar um **Internet Gateway**, o que será configurado posteriormente através das **Route Tables**.
 
-### Private App e DB Subnets
+## Private App e DB Subnets
 
 As subnets privadas de aplicação e de banco de dados abrigam os recursos que processam a aplicação e armazenam suas informações. Como nenhum desses componentes necessita de endereços IP públicos nem de conexão direta com a Internet, estruturar a infraestrutura dessa forma reduz significativamente a superfície de ataque, isolando esses recursos do acesso externo.
 
 Além disso, caso os servidores da aplicação precisem acessar serviços externos, é possível configurá-los por meio de um **NAT Gateway**, sem expor o ambiente diretamente à Internet.
 
-A separação em três camadas distribuídas em duas AZs junta **segurança e alta disponibilidade** no mesmo projeto.
+## A separação em três camadas distribuídas em duas AZs junta **segurança e alta disponibilidade** no mesmo projeto.
 
 A divisão em camadas públicas, de aplicação e de banco define quem acessa o quê: a Internet só chega ao ponto de entrada na camada pública, enquanto os servidores e o banco de dados ficam totalmente isolados na rede privada. Já a replicação em duas AZs duplica essa estrutura em locais físicos diferentes, garantindo que o sistema continue no ar se uma das zonas cair.
+---
 
 Em resumo, a infraestrutura base apresentada estabelece a estrutura de rede sobre a qual os demais componentes do laboratório serão posteriormente implantados.
