@@ -157,5 +157,4 @@ A divisão em camadas públicas, de aplicação e de banco define quem acessa o 
 &nbsp;
 
 ---
-&nbsp;
 Em resumo, a infraestrutura base apresentada estabelece a estrutura de rede sobre a qual os demais componentes do laboratório serão posteriormente implantados.
