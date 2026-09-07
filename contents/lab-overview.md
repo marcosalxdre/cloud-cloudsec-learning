@@ -68,6 +68,7 @@ A **Region** representa uma localização geográfica da infraestrutura da AWS. 
 Neste laboratório, a Region funciona como o limite geográfico dentro do qual a infraestrutura será construída.
 
 A escolha da Region deve considerar fatores como custo, latência, disponibilidade dos serviços e requisitos relacionados à localização dos dados.
+
 &nbsp;
 
 ## VPC
@@ -81,6 +82,7 @@ A VPC define, entre outras coisas:
 - as regras de roteamento;
 - os mecanismos de conectividade;
 - os limites de comunicação entre os recursos.
+
 &nbsp;
 
 ## Availability Zones
@@ -100,6 +102,7 @@ Uma **Availability Zone** é composta por um ou mais datacenters dentro de uma R
 A utilização de duas Zonas de Disponibilidade (AZs) permite distribuir os componentes da aplicação entre locais fisicamente separados. Assim, caso uma AZ apresente falhas, a arquitetura pode ser projetada para continuar funcionando por meio dos recursos disponíveis na outra AZ.
 
 > **Importante:** uma subnet pertence a uma única Availability Zone. Por isso, para distribuir a infraestrutura entre duas AZs, criamos subnets separadas em cada uma delas.
+
 &nbsp;
 
 ## Subnets
@@ -119,6 +122,7 @@ AZ-B
 ```
 
 A separação não é apenas organizacional. Cada subnet poderá possuir rotas e controles de acesso diferentes, permitindo determinar quais recursos podem se comunicar com a Internet e quais devem permanecer restritos à rede privada.
+
 &nbsp;
 
 ## Public Subnets
@@ -135,6 +139,7 @@ Public Subnet A       Public Subnet B
 ```
 
 Uma subnet é considerada pública não simplesmente porque contém um recurso público, mas porque sua tabela de rotas possui uma rota que permite alcançar um **Internet Gateway**, o que será configurado posteriormente através das **Route Tables**.
+
 &nbsp;
 
 ## Private App e DB Subnets
@@ -149,5 +154,5 @@ A divisão em camadas públicas, de aplicação e de banco define quem acessa o 
 &nbsp;
 &nbsp;
 
----
+
 Em resumo, a infraestrutura base apresentada estabelece a estrutura de rede sobre a qual os demais componentes do laboratório serão posteriormente implantados.
