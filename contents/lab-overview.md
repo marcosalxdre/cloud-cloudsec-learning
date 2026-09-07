@@ -6,7 +6,7 @@ Assim, será construída uma arquitetura inicial que servirá como base para os 
 
 O objetivo é estabelecer uma evolução gradual, onde a compreensão teórica sobre determinado conceito seja convertida em decisões arquiteturais e, então, em implementações práticas, criando uma relação contínua entre estudo, construção, experimentação e análise.
 
-## Início (Estudo Teórico Base)
+## Início
 
 A primeira coisa que fiz foi dedicar um tempo aos estudos para compreender melhor alguns conceitos fundamentais de computação em nuvem, como, por exemplo:
 
