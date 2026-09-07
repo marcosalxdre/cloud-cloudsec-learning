@@ -40,6 +40,8 @@ O resultado é o diagrama da infraestrutura base representado abaixo:
   <img src="https://github.com/marcosalxdre/cloud-cloudsec-learning/blob/eb08942d344309906bd203d2e3eaf79ee5c4029d/images/diagrama-baseline.png?raw=true" width="75%">
 </p>
 
+&nbsp;
+
 Como pode ser visto no diagrama acima, a infraestrutura foi estruturada dentro de uma **AWS Region**, utilizando uma **VPC** distribuída em duas **Availability Zones (AZs)**. A VPC foi dividida em subnets com diferentes níveis de exposição e responsabilidades, separando a camada pública da camada de aplicação e da camada de banco de dados.
 
 &nbsp;
