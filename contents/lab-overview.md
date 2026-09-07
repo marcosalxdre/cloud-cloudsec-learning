@@ -148,11 +148,15 @@ As subnets privadas de aplicação e de banco de dados abrigam os recursos que p
 
 Além disso, caso os servidores da aplicação precisem acessar serviços externos, é possível configurá-los por meio de um **NAT Gateway**, sem expor o ambiente diretamente à Internet.
 
+&nbsp;
+
 ## A separação em três camadas distribuídas em duas AZs junta **segurança e alta disponibilidade** no mesmo projeto.
 
 A divisão em camadas públicas, de aplicação e de banco define quem acessa o quê: a Internet só chega ao ponto de entrada na camada pública, enquanto os servidores e o banco de dados ficam totalmente isolados na rede privada. Já a replicação em duas AZs duplica essa estrutura em locais físicos diferentes, garantindo que o sistema continue no ar se uma das zonas cair.
 &nbsp;
 &nbsp;
 
+---
+&nbsp;
 
 Em resumo, a infraestrutura base apresentada estabelece a estrutura de rede sobre a qual os demais componentes do laboratório serão posteriormente implantados.
