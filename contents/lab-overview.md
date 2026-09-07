@@ -155,7 +155,6 @@ Além disso, caso os servidores da aplicação precisem acessar serviços extern
 A divisão em camadas públicas, de aplicação e de banco define quem acessa o quê: a Internet só chega ao ponto de entrada na camada pública, enquanto os servidores e o banco de dados ficam totalmente isolados na rede privada. Já a replicação em duas AZs duplica essa estrutura em locais físicos diferentes, garantindo que o sistema continue no ar se uma das zonas cair.
 
 &nbsp;
-&nbsp;
 
 ---
 &nbsp;
