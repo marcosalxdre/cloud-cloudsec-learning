@@ -41,8 +41,8 @@ O resultado é o diagrama da infraestrutura base representado abaixo:
 </p>
 <br>
 Como pode ser visto no diagrama acima, a infraestrutura foi estruturada dentro de uma **AWS Region**, utilizando uma **VPC** distribuída em duas **Availability Zones (AZs)**. A VPC foi dividida em subnets com diferentes níveis de exposição e responsabilidades, separando a camada pública da camada de aplicação e da camada de banco de dados.
+<br>
 
-<br><br>
 ```text
 Region
 └── VPC
