@@ -1,4 +1,4 @@
-### Cloud SecOps Lab Overview
+## Cloud SecOps Lab Overview
 
 Nesta parte, meu objetivo é apresentar a construção do laboratório, partindo dos conceitos estudados até sua aplicação prática na infraestrutura. A ideia fundamental é demonstrar como os diferentes conceitos se relacionam para possibilitar a construção de uma infraestrutura funcional, segura, resiliente e escalável.
 
