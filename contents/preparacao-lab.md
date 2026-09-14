@@ -7,7 +7,7 @@ O objetivo é estabelecer desde já aspectos como região, Availability Zones, e
 
 Assim, ficou definido: 
 
-## Região
+### Região
 
 A região escolhida foi: ca-central-1 (Canada Central). 
 
@@ -15,11 +15,11 @@ Para a escolha da região, no caso específico deste laboratório, foram avaliad
 
 Como trata-se de um ambiente de laboratório, requisitos como a latência e residência de dados não são críticos neste cenário. A região escolhida oferece os serviços necessários para a infraestrutura proposta e apresenta custo adequado ao objetivo do laboratório.
 
-## CIDR da VPC
+### CIDR da VPC
 
 A escolha do CIDR foi 10.0.0.0/16, faixa que fornece espaço suficiente para a infraestrutura atual e permite a criação de novas subnets caso o laboratório seja expandido posteriormente.
 
-## CIDRs das subnets
+### CIDRs das subnets
 
 Visto que o projeto propõe duas AZs, a VPC será subdividida em seis subnets, distribuídas entre duas Availability Zones. Cada camada da arquitetura terá uma subnet correspondente em cada AZ.
 
@@ -48,7 +48,6 @@ O tamanho /27 foi escolhido pela simplicidade de gerenciamento e pela quantidade
          │
         └── Private DB Subnet
             10.0.22.0/27
+```
 
-            ```
-        
 A divisão em subnets tem como objetivo separar componentes com diferentes funções e requisitos de exposição, fornecendo a cada camada certo nível de isolamento e permitindo aplicar políticas de roteamento e controles de tráfego distintos para cada camada.
