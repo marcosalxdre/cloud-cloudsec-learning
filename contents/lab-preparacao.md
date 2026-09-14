@@ -4,8 +4,9 @@ O que fiz em seguida foi definir algumas informações importantes e objetivos r
 
 O objetivo é estabelecer desde já aspectos como região, Availability Zones, endereçamento IP, organização dos recursos, nomenclatura, tags, requisitos de segurança, conectividade e requisitos de funcionamento da workload, de forma que  decisões improvisadas durante a implementação sejam evitadas. 
 
-
 Assim, ficou definido: 
+
+&nbsp;
 
 ### Região
 
@@ -14,6 +15,8 @@ A região escolhida foi: ca-central-1 (Canada Central).
 Para a escolha da região, no caso específico deste laboratório, foram avaliadas principalmente questões como o custo estimado dos serviços e a disponibilidade dos recursos necessários para utilização.
 
 Como trata-se de um ambiente de laboratório, requisitos como a latência e residência de dados não são críticos neste cenário. A região escolhida oferece os serviços necessários para a infraestrutura proposta e apresenta custo adequado ao objetivo do laboratório.
+
+&nbsp;
 
 ### CIDR da VPC
 
