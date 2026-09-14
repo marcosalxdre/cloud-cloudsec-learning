@@ -65,6 +65,7 @@ ca-central-1
 ├── ?
 └── ?
 ```
+
 O que torna a lógica dessa escolha como a exibida a seguir: 
 
 ```text
