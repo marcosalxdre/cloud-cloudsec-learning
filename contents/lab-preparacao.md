@@ -56,10 +56,11 @@ A divisão em subnets tem como objetivo separar componentes com diferentes funç
 
 O objetivo a ser alcançado com a distribuição da infraestrutura em AZs diferentes e reduzir a dependência de uma única zona de disponibilidade e permitir uma arquitetura mais resiliente. Diante disso, neste laboratório, após verificar as AZs disponíveis, optou-se pelas AZs: 
 
+```text
 ca-central-1
 ├── ?
 └── ?
-
+```
 O que torna a lógica dessa escolha como a exibida a seguir: 
 
 ```text
