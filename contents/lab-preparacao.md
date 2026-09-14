@@ -5,7 +5,6 @@ O que fiz em seguida foi definir algumas informações importantes e objetivos r
 O objetivo é estabelecer desde já aspectos como região, Availability Zones, endereçamento IP, organização dos recursos, nomenclatura, tags, requisitos de segurança, conectividade e requisitos de funcionamento da workload, de forma que  decisões improvisadas durante a implementação sejam evitadas. 
 
 Assim, ficou definido: 
-
 &nbsp;
 ### Região
 
