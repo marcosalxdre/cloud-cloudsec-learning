@@ -15,6 +15,7 @@ Para a escolha da região, no caso específico deste laboratório, foram avaliad
 
 Como trata-se de um ambiente de laboratório, requisitos como a latência e residência de dados não são críticos neste cenário. A região escolhida oferece os serviços necessários para a infraestrutura proposta e apresenta custo adequado ao objetivo do laboratório.
 
+&nbsp;
 ### CIDR da VPC
 
 A escolha do CIDR foi 10.0.0.0/16, faixa que fornece espaço suficiente para a infraestrutura atual e permite a criação de novas subnets caso o laboratório seja expandido posteriormente.
@@ -50,7 +51,7 @@ O tamanho /27 foi escolhido pela simplicidade de gerenciamento e pela quantidade
         └── Private DB Subnet
             10.0.22.0/27
 ```
-
+&nbsp;
 A divisão em subnets tem como objetivo separar componentes com diferentes funções e requisitos de exposição, fornecendo a cada camada certo nível de isolamento e permitindo aplicar políticas de roteamento e controles de tráfego distintos para cada camada.
 
 &nbsp;
