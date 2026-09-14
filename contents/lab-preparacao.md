@@ -113,7 +113,7 @@ Component   = network
 Tier = ?
 
 &nbsp;
-# Objetivos de segurança
+# _Objetivos de segurança_
 
 Os objetivos de segurança do laboratório foram definidos com base em boas práticas de segurança em cloud computing e nos princípios de segurança recomendados por provedores de nuvem e organizações especializadas. Alguns destes documentos estão listados no primeiro material deste laboratório, no link: 
 
