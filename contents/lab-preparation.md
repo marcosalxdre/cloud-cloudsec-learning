@@ -1,4 +1,5 @@
 # Cloud SecOps Lab Preparation
+&nbsp;
 
 O que fiz em seguida foi definir algumas informações importantes e objetivos relacionados à infraestrutura a ser criada.
 
