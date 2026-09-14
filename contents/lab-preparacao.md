@@ -7,7 +7,7 @@ O objetivo é estabelecer desde já aspectos como região, Availability Zones, e
 Assim, ficou definido:
 
 &nbsp;
-### Região
+## Região
 
 A região escolhida foi: ca-central-1 (Canada Central). 
 
@@ -16,7 +16,7 @@ Para a escolha da região, no caso específico deste laboratório, foram avaliad
 Como trata-se de um ambiente de laboratório, requisitos como a latência e residência de dados não são críticos neste cenário. A região escolhida oferece os serviços necessários para a infraestrutura proposta e apresenta custo adequado ao objetivo do laboratório.
 
 &nbsp;
-### CIDR da VPC
+## CIDR da VPC
 
 A escolha do CIDR foi 10.0.0.0/16, faixa que fornece espaço suficiente para a infraestrutura atual e permite a criação de novas subnets caso o laboratório seja expandido posteriormente.
 
