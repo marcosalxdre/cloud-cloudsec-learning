@@ -51,3 +51,49 @@ O tamanho /27 foi escolhido pela simplicidade de gerenciamento e pela quantidade
 ```
 
 A divisão em subnets tem como objetivo separar componentes com diferentes funções e requisitos de exposição, fornecendo a cada camada certo nível de isolamento e permitindo aplicar políticas de roteamento e controles de tráfego distintos para cada camada.
+
+### AZs
+
+O objetivo a ser alcançado com a distribuição da infraestrutura em AZs diferentes e reduzir a dependência de uma única zona de disponibilidade e permitir uma arquitetura mais resiliente. Diante disso, neste laboratório, após verificar as AZs disponíveis, optou-se pelas AZs: 
+
+ca-central-1
+├── ?
+└── ?
+
+O que torna a lógica dessa escolha como a exibida a seguir: 
+
+```text
+┌───────────────────────────────┐
+│            Region             │
+│                               │
+└───────────────┬───────────────┘
+                │
+        ┌───────┴───────┐
+        ▼               ▼
+      AZ-A             AZ-B
+        │               │
+   3 Subnets        3 Subnets
+```
+
+### Nome dos recursos
+
+Mesmo lindando com uma infraestrutura relativamente simples, com o objetivo de facilitar a identificação dos recursos na infraestrutura, será utilizado certo padrão de nomenclatura para identificar recursos. O prefixo cloudlab-opssec identifica o projeto. Após o prefixo, será utilizada uma referência ao recurso e, quando necessário, à sua camada ou Availability Zone.
+
+Exemplos:
+
+cloudlab-opssec-vpc
+
+cloudlab-opssec-public-a
+
+cloudlab-opssec-app-a
+
+cloudlab-opssec-db-a
+
+cloudlab-opssec-public-b
+
+cloudlab-opssec-app-b
+
+cloudlab-opssec-db-b 
+
+
+
