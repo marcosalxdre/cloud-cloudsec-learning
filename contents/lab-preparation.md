@@ -62,8 +62,8 @@ O objetivo a ser alcançado com a distribuição da infraestrutura em AZs difere
 
 ```text
 ca-central-1
-├── ?
-└── ?
+├── cac1-az1 (ca-central-1a)
+└── cac1-az2 (ca-central-1b)
 ```
 
 O que torna a lógica dessa escolha como a exibida a seguir: 
@@ -90,17 +90,17 @@ Exemplos:
 
 cloudlab-opssec-vpc
 
-cloudlab-opssec-public-a
+cloudlab-opssec-public-subnet-a
 
-cloudlab-opssec-app-a
+cloudlab-opssec-app-subnet-a
 
-cloudlab-opssec-db-a
+cloudlab-opssec-db-subnet-a
 
-cloudlab-opssec-public-b
+cloudlab-opssec-public-subnet-b
 
-cloudlab-opssec-app-b
+cloudlab-opssec-app-subnet-b
 
-cloudlab-opssec-db-b
+cloudlab-opssec-db-subnet-b
 
 &nbsp;
 ## Tags
