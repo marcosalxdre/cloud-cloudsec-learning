@@ -14,7 +14,7 @@ A região escolhida foi: ca-central-1 `(Canada Central)`.
 
 Para a escolha da região, no caso específico deste laboratório, foram avaliadas principalmente questões como o custo estimado dos serviços e a disponibilidade dos recursos necessários para utilização.
 
-Como trata-se de um ambiente de laboratório, requisitos como a latência e residência de dados não são críticos neste cenário. A região escolhida oferece os serviços necessários para a infraestrutura proposta e apresenta custo adequado ao objetivo do laboratório.
+Como trata-se de um ambiente de laboratório, requisitos como a latência e residência de dados não são críticos. A região escolhida oferece os serviços necessários para a infraestrutura proposta e apresenta custo adequado ao objetivo do laboratório.
 
 &nbsp;
 ## CIDR da VPC
@@ -26,30 +26,30 @@ A escolha do CIDR foi `10.0.0.0/16`, faixa que fornece espaço suficiente para a
 
 Visto que o projeto propõe duas AZs, a VPC será subdividida em seis subnets, distribuídas entre duas Availability Zones. Cada camada da arquitetura terá uma subnet correspondente em cada AZ.
 
-O tamanho `/27` foi escolhido pela simplicidade de gerenciamento e pela quantidade de endereços disponível para o laboratório. Cada subnet possui 32 endereços IPv4, sendo 27 utilizáveis na AWS. O formato de divisão pode ser visto a seguir:
+O tamanho `/27` foi escolhido pela simplicidade de gerenciamento e pela quantidade de endereços requeridos para o laboratório. Cada subnet possui 32 endereços IPv4, sendo 27 utilizáveis na AWS. O formato de divisão pode ser visto a seguir:
 
 ```text
     VPC
     10.0.0.0/16
     │
     ├── AZ-A
-    │   ├── Public Subnet
+    │   ├── Public-Subnet-A
     │   │   10.0.1.0/27
     │   │
-    │   ├── Private App Subnet
+    │   ├── Private-App-Subnet-A
     │   │   10.0.11.0/27
     │   │
-    │   └── Private DB Subnet
+    │   └── Private-DB-Subnet-A
     │       10.0.21.0/27
     │
     └── AZ-B
-        ├── Public Subnet
-         │   10.0.2.0/27
-         │
-        ├── Private App Subnet
-         │   10.0.12.0/27
-         │
-        └── Private DB Subnet
+        ├── Public-Subnet-B
+        │   10.0.2.0/27
+        │
+        ├── Private-App-Subnet-B
+        │   10.0.12.0/27
+        │
+        └── Private-DB-Subnet-B
             10.0.22.0/27
 ```
 &nbsp;
