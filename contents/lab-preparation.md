@@ -109,7 +109,7 @@ Com o objetivo de facilitar a organização, identificação e o controle de cus
 
 Project     = cloudlab-opssec  
 Environment = lab  
-Owner       = Marcos  
+Owner       = marcos  
 ManagedBy   = manual  
 Component   = network  
 ...
