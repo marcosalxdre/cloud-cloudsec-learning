@@ -1,6 +1,7 @@
-# Implementação do Laboratório (VPC/SUB-REDES/INTERNET GATEWAY)
+# Implementação do Laboratório (vpc/sub-redes/internet gateway)
 
 Imediatamente após a fase de preparação, iniciei efetivamente a implementação do laboratório. No console da AWS, o primeiro passo foi a criação da VPC, processo que pode ser visualizado abaixo.
+
 &nbsp;
 
 ## Criação da VPC
