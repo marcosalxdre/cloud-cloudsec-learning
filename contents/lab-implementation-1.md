@@ -60,6 +60,7 @@ Após a criação das sub-redes, parti para a criação do Internet Gateway e su
 
 ![Criação do Internet Gateway](../images/igw-4.png "Criação do Internet Gateway")
 
+![Criação do Internet Gateway](../images/igw-5.png "Criação do Internet Gateway")
 
 
 
