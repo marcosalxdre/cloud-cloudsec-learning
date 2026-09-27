@@ -88,19 +88,19 @@ Mesmo lindando com uma infraestrutura relativamente simples, com o objetivo de f
 
 Exemplos:
 
-cloudlab-opssec-vpc
+cloudsec-lab-vpc
 
-cloudlab-opssec-public-subnet-a
+cloudsec-lab-public-sub-a
 
-cloudlab-opssec-app-subnet-a
+cloudsec-lab-app-sub-a
 
-cloudlab-opssec-db-subnet-a
+cloudsec-lab-db-sub-a
 
-cloudlab-opssec-public-subnet-b
+cloudsec-lab-public-sub-b
 
-cloudlab-opssec-app-subnet-b
+cloudsec-lab-app-sub-b
 
-cloudlab-opssec-db-subnet-b
+cloudsec-lab-db-sub-b
 
 &nbsp;
 ## Tags
