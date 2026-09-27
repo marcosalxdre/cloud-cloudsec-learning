@@ -105,7 +105,7 @@ cloudsec-lab-db-sub-b
 &nbsp;
 ## Tags
 
-Com o objetivo de facilitar a organização, identificação e o controle de custos, defini uma padronização para os valores das tags, evitando variações de nomenclatura e mantendo a consistência entre os recursos.
+Com o objetivo de facilitar a organização, identificação e o controle de custos, será definida uma padronização para os valores das tags, evitando variações de nomenclatura e mantendo a consistência entre os recursos.
 
 Project     = cloudlab-opssec  
 Environment = lab  
