@@ -16,7 +16,6 @@ No console da AWS, a implementação teve início com a criação da VPC, como p
 ![Criação da VPC](../images/vpc-3.png "Criação da VPC")
 
 &nbsp;
-&nbsp;
 A imagem a seguir demonstra que a VPC foi criada com sucesso.
 
 &nbsp;
@@ -50,7 +49,7 @@ Na imagem a seguir, é possível visualizar a lista das sub-redes criadas, confo
 
 ## Criação do Internet Gateway
 
-Após a criação das sub-redes, parti para a criação do Internet Gateway e sua associação à VPC do laboratório, conforme pode ser visto nas imagens a seguir.
+Após a criação das sub-redes, parti para a criação do Internet Gateway e sua associação à VPC do laboratório, como demonstrado nas imagens a seguir.
 
 &nbsp;
 ![Criação do Internet Gateway](../images/igw-1.png "Criação do Internet Gateway")
