@@ -14,6 +14,6 @@ Dessa forma, o repositório permite acompanhar não apenas a evolução do conhe
 ## Contents
 
 [Cloud SecOps Lab Overview](contents/lab-overview.md)  
-[Cloud SecOps Lab Preparation](contents/lab-preparation.md) 
+[Cloud SecOps Lab Preparation](contents/lab-preparation.md)   
 [Cloud SecOps Lab Infrastructure Implementation Part 1](contents/lab-implementation-1.md)
 
