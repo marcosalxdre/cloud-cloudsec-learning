@@ -112,7 +112,7 @@ Environment = lab
 Owner       = Marcos  
 ManagedBy   = manual  
 Component   = network  
-Tier = ?
+...
 
 &nbsp;
 # Objetivos de segurança
