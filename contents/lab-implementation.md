@@ -6,7 +6,7 @@ Imediatamente após a fase de preparação, iniciei efetivamente a implementaç�
 
 ## Criação da VPC
 
-No console da AWS, o primeiro passo foi a criar a VPC, como visto nas figuras a seguir.
+No console da AWS, a implementação teve início com a criação da VPC, como pode ser visto nas figuras a seguir.
 
 &nbsp;
 ![Criação da VPC](../images/vpc-1.png "Criação da VPC")
@@ -15,12 +15,13 @@ No console da AWS, o primeiro passo foi a criar a VPC, como visto nas figuras a 
 
 ![Criação da VPC](../images/vpc-3.png "Criação da VPC")
 
+&nbsp;
 A imagem a seguir mostra que a VPC foi criada com sucesso.
 
 &nbsp;
 ![VPC criada](../images/vpc-4.png "VPC criada")
 
-
+&nbsp;
 
 
 ## Criação das Sub-redes
