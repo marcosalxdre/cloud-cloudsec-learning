@@ -19,7 +19,7 @@ Como trata-se de um ambiente de laboratório, requisitos como a latência e resi
 &nbsp;
 ## CIDR da VPC
 
-A escolha do CIDR foi `10.0.0.0/16`, faixa que fornece espaço suficiente para a infraestrutura atual e permite a criação de novas subnets caso o laboratório seja expandido posteriormente.
+A escolha do CIDR foi `10.0.0.0/20, faixa que fornece espaço suficiente para a infraestrutura especifica deste lab e permite a criação de novas subnets caso o laboratório seja expandido posteriormente.
 
 &nbsp;
 ## CIDRs das subnets
@@ -30,7 +30,7 @@ O tamanho `/27` foi escolhido pela simplicidade de gerenciamento e pela quantida
 
 ```text
     VPC
-    10.0.0.0/16
+    10.0.0.0/20
     │
     ├── AZ-A
     │   ├── Public-Subnet-A
