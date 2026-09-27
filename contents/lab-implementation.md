@@ -16,7 +16,7 @@ No console da AWS, a implementação teve início com a criação da VPC, como p
 ![Criação da VPC](../images/vpc-3.png "Criação da VPC")
 
 &nbsp;
-A imagem a seguir mostra que a VPC foi criada com sucesso.
+A imagem a seguir demonstra que a VPC foi criada com sucesso.
 
 &nbsp;
 ![VPC criada](../images/vpc-4.png "VPC criada")
@@ -30,6 +30,7 @@ Após criar a VPC, ainda no console da AWS, parti para a criação das sub-redes
 
 As figuras a seguir exibem a criação da primeira sub-rede. No entanto, todas as sub-redes foram criadas manualmente, com o objetivo de internalizar o processo e os conceitos relacionados.
 
+&nbsp;
 ![Criação das sub-redes](../images/subrede-1.png "Criação das sub-redes")
 
 ![Criação das sub-redes](../images/subrede-2.png "Criação das sub-redes")
