@@ -7,8 +7,8 @@ Imediatamente após a fase de preparação, iniciei efetivamente a implementaç�
 ## Criação da VPC
 
 No console da AWS, o primeiro passo foi a criação da VPC, como pode ser visto nas figuras abaixo.
-&nbsp;
 
+&nbsp;
 ![Criação da VPC](../images/vpc-1.png "Criação da VPC")
 
 ![Criação da VPC](../images/vpc-2.png "Criação da VPC")
