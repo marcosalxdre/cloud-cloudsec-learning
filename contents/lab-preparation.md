@@ -37,20 +37,20 @@ O tamanho `/27` foi escolhido pela simplicidade de gerenciamento e pela quantida
     │   │   10.0.1.0/27
     │   │
     │   ├── Private-App-Subnet-A
-    │   │   10.0.11.0/27
+    │   │   10.0.4.0/27
     │   │
     │   └── Private-DB-Subnet-A
-    │       10.0.21.0/27
+    │       10.0.8.0/27
     │
     └── AZ-B
         ├── Public-Subnet-B
         │   10.0.2.0/27
         │
         ├── Private-App-Subnet-B
-        │   10.0.12.0/27
+        │   10.0.6.0/27
         │
         └── Private-DB-Subnet-B
-            10.0.22.0/27
+            10.0.10.0/27
 ```
 &nbsp;
 A divisão em subnets tem como objetivo separar componentes com diferentes funções e requisitos de exposição, fornecendo a cada camada certo nível de isolamento e permitindo aplicar políticas de roteamento e controles de tráfego distintos para cada camada.
