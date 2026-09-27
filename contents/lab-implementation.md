@@ -30,6 +30,7 @@ Após criar a VPC, ainda no console da AWS, parti para a criação das sub-redes
 
 As figuras a seguir exibem a criação da primeira sub-rede. No entanto, todas as sub-redes foram criadas manualmente, com o objetivo de internalizar o processo e os conceitos relacionados.
 
+
 &nbsp;
 ![Criação das sub-redes](../images/subrede-1.png "Criação das sub-redes")
 
@@ -37,8 +38,10 @@ As figuras a seguir exibem a criação da primeira sub-rede. No entanto, todas a
 
 ![Criação das sub-redes](../images/subrede-3.png "Criação das sub-redes")
 
+&nbsp;
 Na imagem a seguir, é possível visualizar a lista das sub-redes criadas, conforme a infraestrutura proposta.
 
+&nbsp;
 ![Sub-redes criadas](../images/subrede-4.png "Criação das subredes")
 
 
