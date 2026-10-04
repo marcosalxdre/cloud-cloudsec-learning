@@ -6,7 +6,7 @@ Após a implementação da VPC, das sub-redes e do Internet Gateway (IGW), parti
 
 ## Criação e Associação das Route Tables
 
-As imagens a seguir demonstram a criação manual da tabela de rotas, especificamente a tabela de rotas pública, e sua posterior associação às sub-redes públicas da nossa infraestrutura.
+As imagens a seguir demonstram a criação manual da tabela de rotas, especificamente a tabela de rotas pública, e sua posterior associação às sub-redes públicas da infraestrutura.
 
 > **Nota:** Para não poluir esta parte do material com muitas imagens, registrei apenas a criação e associação da tabela de rotas pública. No total, foram criadas três tabelas de rotas: pública, aplicação e banco de dados, cada uma associada às suas respectivas sub-redes.
 >
@@ -30,6 +30,10 @@ As imagens a seguir demonstram a criação manual da tabela de rotas, especifica
 ![Criação e Associação Route Tables](../images/rt-8.png "Criação e Associação Route Tables")
 
 ![Criação e Associação Route Tables](../images/rt-9.png "Criação e Associação Route Tables")
+
+&nbsp;
+
+## Criação e Associação dos Security Groups
 
 
 
