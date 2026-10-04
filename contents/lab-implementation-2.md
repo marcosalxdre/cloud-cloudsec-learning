@@ -1,4 +1,4 @@
-# Implementação do Laboratório Fase 2 (Route Tables/Security Groups/NACL)
+# Implementação do Laboratório Fase 2 (Route Tables/Security Groups/NACLs)
 
 Após a implementação da VPC, das sub-redes e do Internet Gateway (IGW), partimos para as configurações de roteamento (Route Tables) e de controle de tráfego (Security Groups e NACLs).
 
