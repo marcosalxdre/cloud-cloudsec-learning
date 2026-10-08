@@ -61,7 +61,6 @@ Essas regras foram configuradas utilizando referências aos Security Groups corr
 ![Criação e Configuração dos Security Groups](../images/sg-6.png "Criação e Configuração dos Security Groups")
 ![Criação e Configuração dos Security Groups](../images/sg-7.png "Criação e Configuração dos Security Groups")
 ![Criação e Configuração dos Security Groups](../images/sg-8.png "Criação e Configuração dos Security Groups")
-![Criação e Configuração dos Security Groups](../images/sg-9.png "Criação e Configuração dos Security Groups")
 
 
 
