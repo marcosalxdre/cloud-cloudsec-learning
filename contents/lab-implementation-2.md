@@ -62,6 +62,21 @@ Essas regras foram configuradas utilizando referências aos Security Groups corr
 ![Criação e Configuração dos Security Groups](../images/sg-7.png "Criação e Configuração dos Security Groups")
 ![Criação e Configuração dos Security Groups](../images/sg-8.png "Criação e Configuração dos Security Groups")
 
+&nbsp;
+
+## Sobre as NACLs
+
+Embora o uso das NACLs tenha sido previsto no planejamento, nesta fase optei por manter a NACL padrão, pois, até o momento, as tabelas de rotas e os Security Groups atendem bem aos controles de tráfego definidos para a arquitetura. Assim, decidi que não há necessidade, neste momento, de adicionar regras restritivas no nível das sub-redes.
+
+A ideia é, em uma etapa futura, utilizar as NACLs em cenários práticos de estudo, como, por exemplo, adicionar uma EC2 com um Security Group mais permissivo à determinada sub-rede e analisar  como uma NACL pode atuar como uma camada adicional de controle de tráfego no nível da sub-rede.
+
+As imagens a seguir apresentam a NACL padrão e suas respectivas regras de tráfego de entrada e saída.
+
+&nbsp;
+
+![NACL Padrão e Regras de Tráfego](../images/nacl-1.png "NACL Padrão e Regras de Tráfego")
+![NACL Padrão e Regras de Tráfego](../images/nacl-2.png "NACL Padrão e Regras de Tráfego")
+
 
 
 
