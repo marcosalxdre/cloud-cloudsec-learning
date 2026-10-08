@@ -51,6 +51,18 @@ As imagens a seguir apresentam o processo de criação dos Security Groups e a c
 
 Essas regras foram configuradas utilizando referências aos Security Groups correspondentes, em vez de endereços IP ou sub-redes específicas, permitindo que o controle de acesso seja baseado diretamente na relação entre os componentes da arquitetura.
 
+&nbsp;
+
+![Criação e Configuração dos Security Groups](../images/sg-1.png "Criação e Configuração dos Security Groups")
+![Criação e Configuração dos Security Groups](../images/sg-2.png "Criação e Configuração dos Security Groups")
+![Criação e Configuração dos Security Groups](../images/sg-3.png "Criação e Configuração dos Security Groups")
+![Criação e Configuração dos Security Groups](../images/sg-4.png "Criação e Configuração dos Security Groups")
+![Criação e Configuração dos Security Groups](../images/sg-5.png "Criação e Configuração dos Security Groups")
+![Criação e Configuração dos Security Groups](../images/sg-6.png "Criação e Configuração dos Security Groups")
+![Criação e Configuração dos Security Groups](../images/sg-7.png "Criação e Configuração dos Security Groups")
+![Criação e Configuração dos Security Groups](../images/sg-8.png "Criação e Configuração dos Security Groups")
+![Criação e Configuração dos Security Groups](../images/sg-9.png "Criação e Configuração dos Security Groups")
+
 
 
 
