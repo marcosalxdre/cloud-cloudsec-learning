@@ -42,13 +42,10 @@ Os Security Groups funcionam como firewalls virtuais que controlam o tráfego de
 Na infraestrutura proposta para o laboratório, até o momento, temos três grupos de segurança:
 
 * **Security Group do Application Load Balancer (ALB)**
-  `cloudsec-lab-alb-sg`
 
 * **Security Group da camada de aplicação**
-  `cloudsec-lab-app-sg`
 
 * **Security Group da camada de banco de dados**
-  `cloudsec-lab-db-sg`
 
 &nbsp;
 
@@ -76,7 +73,11 @@ Dessa forma, o fluxo de comunicação previsto na arquitetura será:
                     └─────────────────┘
 ```
 
+&nbsp;
 
+As imagens a seguir apresentam o processo de criação dos Security Groups e a configuração das respectivas regras de tráfego, incluindo as permissões de entrada e saída definidas para cada componente da arquitetura.
+
+Essas regras de entrada entre as camadas da arquitetura foram configuradas utilizando a referência aos Security Groups correspondentes, em vez de endereços IP ou sub-redes específicas, permitindo que o controle de acesso seja baseado diretamente na relação entre os componentes da arquitetura.
 
 
 
