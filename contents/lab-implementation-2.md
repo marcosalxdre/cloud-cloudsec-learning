@@ -50,6 +50,8 @@ Na infraestrutura proposta para o laboratório, até o momento, temos três grup
 * **Security Group da camada de banco de dados**
   `cloudsec-lab-db-sg`
 
+&nbsp;
+
 Dessa forma, o fluxo de comunicação previsto na arquitetura será:
 
 ```text
