@@ -35,6 +35,45 @@ As imagens a seguir demonstram a criação manual da tabela de rotas, especifica
 
 ## Criação e Associação dos Security Groups
 
+Em seguida, passei para a implementação dos Security Groups, um dos principais mecanismos de controle de tráfego utilizados na infraestrutura de rede da AWS.
+
+Os Security Groups funcionam como firewalls virtuais que controlam o tráfego de entrada e saída das instâncias e interfaces de rede associadas.
+
+Na infraestrutura proposta para o laboratório, até o momento, temos três grupos de segurança:
+
+* **Security Group do Application Load Balancer (ALB)**
+  `cloudsec-lab-alb-sg`
+
+* **Security Group da camada de aplicação**
+  `cloudsec-lab-app-sg`
+
+* **Security Group da camada de banco de dados**
+  `cloudsec-lab-db-sg`
+
+Dessa forma, o fluxo de comunicação previsto na arquitetura será:
+
+```text
+                         Internet
+                            │
+                            │ TCP 80
+                            ▼
+                    ┌─────────────────┐
+                    │     ALB-SG      │
+                    └────────┬────────┘
+                             │
+                             │ TCP 80
+                             ▼
+                    ┌─────────────────┐
+                    │     APP-SG      │
+                    └────────┬────────┘
+                             │
+                             │ TCP 5432
+                             ▼
+                    ┌─────────────────┐
+                    │      DB-SG      │
+                    └─────────────────┘
+```
+
 
 
 
