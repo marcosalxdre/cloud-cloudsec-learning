@@ -37,8 +37,6 @@ As imagens a seguir demonstram a criação manual da tabela de rotas, especifica
 
 Em seguida, passei para a implementação dos Security Groups, um dos principais mecanismos de controle de tráfego utilizados na infraestrutura de rede da AWS.
 
-Os Security Groups funcionam como firewalls virtuais que controlam o tráfego de entrada e saída das instâncias e interfaces de rede associadas.
-
 Na infraestrutura proposta para o laboratório, até o momento, temos três grupos de segurança:
 
 * **Security Group do Application Load Balancer (ALB)**
@@ -49,35 +47,11 @@ Na infraestrutura proposta para o laboratório, até o momento, temos três grup
 
 &nbsp;
 
-Dessa forma, o fluxo de comunicação previsto na arquitetura será:
-
-```text
-                         Internet
-                            │
-                            │ TCP 80
-                            ▼
-                    ┌─────────────────┐
-                    │     ALB-SG      │
-                    └────────┬────────┘
-                             │
-                             │ TCP 80
-                             ▼
-                    ┌─────────────────┐
-                    │     APP-SG      │
-                    └────────┬────────┘
-                             │
-                             │ TCP 5432
-                             ▼
-                    ┌─────────────────┐
-                    │      DB-SG      │
-                    └─────────────────┘
-```
-
-&nbsp;
-
 As imagens a seguir apresentam o processo de criação dos Security Groups e a configuração das respectivas regras de tráfego, incluindo as permissões de entrada e saída definidas para cada componente da arquitetura.
 
-Essas regras de entrada entre as camadas da arquitetura foram configuradas utilizando a referência aos Security Groups correspondentes, em vez de endereços IP ou sub-redes específicas, permitindo que o controle de acesso seja baseado diretamente na relação entre os componentes da arquitetura.
+Essas regras foram configuradas fazendo referência aos Security Groups correspondentes, em vez de endereços IP ou sub-redes específicas, permitindo que o controle de acesso seja baseado diretamente na relação entre os componentes da arquitetura.
+
+
 
 
 
