@@ -49,7 +49,7 @@ Na infraestrutura proposta para o laboratório, até o momento, temos três grup
 
 As imagens a seguir apresentam o processo de criação dos Security Groups e a configuração das respectivas regras de tráfego, incluindo as permissões de entrada e saída definidas para cada componente da arquitetura.
 
-Essas regras foram configuradas fazendo referência aos Security Groups correspondentes, em vez de endereços IP ou sub-redes específicas, permitindo que o controle de acesso seja baseado diretamente na relação entre os componentes da arquitetura.
+Essas regras foram configuradas utilizando referências aos Security Groups correspondentes, em vez de endereços IP ou sub-redes específicas, permitindo que o controle de acesso seja baseado diretamente na relação entre os componentes da arquitetura.
 
 
 
